@@ -55,8 +55,9 @@ class CollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if let destVC = storyboard?.instantiateViewController(withIdentifier: "Detail View Controller") as? DetailViewController {
-            destVC.selectedImage = pictures[indexPath.item]
-            destVC.selectedPictureNumber = indexPath.item + 1
+            let index = indexPath.item
+            destVC.selectedImage = pictures[index]
+            destVC.selectedPictureNumber = index + 1
             destVC.totalPictureCount = pictures.count
             
             navigationController?.pushViewController(destVC, animated: true)
