@@ -12,10 +12,13 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let attrs = [
+        NSAttributedString.Key.foregroundColor: UIColor.black,
+        NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 24)!
+    ]
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        UINavigationBar.appearance().titleTextAttributes = attrs
         return true
     }
 

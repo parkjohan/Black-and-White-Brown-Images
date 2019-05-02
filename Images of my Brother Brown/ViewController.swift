@@ -16,8 +16,7 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         
         title = "Brown in Black & White"
-        navigationController?.navigationBar.prefersLargeTitles = true
-        navigationController?.navigationBar.sizeToFit()
+        navigationController?.navigationBar.backgroundColor = UIColor.lightGray
         
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!

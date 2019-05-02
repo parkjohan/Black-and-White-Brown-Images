@@ -51,7 +51,7 @@
         <!--Detail View Controller-->
         <scene sceneID="sts-Ph-qjr">
             <objects>
-                <viewController title="Detail View Controller" id="FIh-AI-6pD" customClass="DetailViewController" customModule="Images_of_my_Brother_Brown" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Detail View Controller" title="Detail View Controller" id="FIh-AI-6pD" customClass="DetailViewController" customModule="Images_of_my_Brother_Brown" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I5v-2a-bPg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
