@@ -43,6 +43,8 @@
 		98808E23227912940068AE13 /* 000018.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 98808E05227912940068AE13 /* 000018.JPG */; };
 		98808E24227912940068AE13 /* 000016.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 98808E06227912940068AE13 /* 000016.JPG */; };
 		98808E27227912EC0068AE13 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98808E26227912EC0068AE13 /* DetailViewController.swift */; };
+		98808E29227B97490068AE13 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98808E28227B97490068AE13 /* CollectionViewController.swift */; };
+		98808E2C227B98E90068AE13 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98808E2B227B98E90068AE13 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +86,8 @@
 		98808E05227912940068AE13 /* 000018.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 000018.JPG; sourceTree = "<group>"; };
 		98808E06227912940068AE13 /* 000016.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 000016.JPG; sourceTree = "<group>"; };
 		98808E26227912EC0068AE13 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		98808E28227B97490068AE13 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		98808E2B227B98E90068AE13 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				98808DD7227912470068AE13 /* AppDelegate.swift */,
-				98808DD9227912470068AE13 /* ViewController.swift */,
-				98808E26227912EC0068AE13 /* DetailViewController.swift */,
+				98808E2A227B97550068AE13 /* Controllers */,
 				98808DDB227912470068AE13 /* Main.storyboard */,
 				98808DDE227912480068AE13 /* Assets.xcassets */,
 				98808DE0227912480068AE13 /* LaunchScreen.storyboard */,
@@ -163,6 +166,17 @@
 				98808DF8227912920068AE13 /* 000040.JPG */,
 			);
 			path = "Brown Images";
+			sourceTree = "<group>";
+		};
+		98808E2A227B97550068AE13 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				98808DD9227912470068AE13 /* ViewController.swift */,
+				98808E26227912EC0068AE13 /* DetailViewController.swift */,
+				98808E28227B97490068AE13 /* CollectionViewController.swift */,
+				98808E2B227B98E90068AE13 /* CollectionViewCell.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98808E2C227B98E90068AE13 /* CollectionViewCell.swift in Sources */,
+				98808E29227B97490068AE13 /* CollectionViewController.swift in Sources */,
 				98808E27227912EC0068AE13 /* DetailViewController.swift in Sources */,
 				98808DDA227912470068AE13 /* ViewController.swift in Sources */,
 				98808DD8227912470068AE13 /* AppDelegate.swift in Sources */,
