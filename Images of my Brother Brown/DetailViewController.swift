@@ -36,4 +36,10 @@ class DetailViewController: UIViewController {
         super.viewWillDisappear(animated)
         navigationController?.hidesBarsOnTap = false
     }
+    
+    @IBAction func handlePinch(recognizer: UIPinchGestureRecognizer) {
+        if let view = recognizer.view {
+            view.transform = view.transform.scaledBy(x: recognizer.scale, y: recognizer.scale)
+        }
+    }
 }
